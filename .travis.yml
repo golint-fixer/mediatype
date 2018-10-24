@@ -9,7 +9,7 @@ install:
     - go build -v ./...
 
     # Lint
-    - go get github.com/golang/lint/golint
+    - go get golang.org/x/lint/golint
 
     # Modify our PATH
     - export PATH=$PATH:${GOPATH/:*/}/bin
